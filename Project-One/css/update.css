@@ -1,0 +1,58 @@
+/*for mobiles*/
+
+@media (min-width: 375px) and (max-width: 767px) {
+    .skills-section .container {
+        flex-direction: column;
+    }
+    .skills-section .container .technicals {
+        flex-direction: column;
+    }
+    .services-section .container .services {
+        flex-direction: column;
+    }
+    .skills-section .container .technical div,
+    .skills-section .container .soft .purple-box div {
+        width: 350px;
+        margin: 1rem 0;
+    }
+    .skills-section .container .soft .box label {
+        margin-right: -40px;
+        font-size: 0.8rem;
+    }
+    .skills-section .container .soft .box progress {
+        width: 250px;
+        padding: 0;
+    }
+    .testimonials h2 {
+        padding-right: 70px;
+    }
+    .section {
+        margin-left: 0;
+    }
+}
+
+
+/*for tablets*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .about-section .container {
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+    .about-section .container div {
+        width: 80%;
+        margin-bottom: 10%;
+        text-align: center;
+    }
+    .about-section .container div img {
+        margin-left: 25%;
+        margin-top: 25%;
+    }
+    .services-section .container .services {
+        flex-direction: column;
+    }
+    .services-section .container .services div {
+        width: 80%;
+        margin-left: 10%;
+    }
+}
